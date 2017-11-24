@@ -1,6 +1,8 @@
 # pastel-dark-syntax
 
-> A calming syntax theme. Inspired by Base16 Eighties
+A calming syntax theme. Inspired by Chris Kempson's [Base16 Eighties](https://github.com/chriskempson/base16).
+
+The font used in the preview is [Range Mono](https://www.myfonts.com/fonts/griffin-moore/range-mono/).
 
 ## Install
 
