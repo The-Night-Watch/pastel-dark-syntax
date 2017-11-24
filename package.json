@@ -1,0 +1,17 @@
+{
+  "name": "pastel-dark-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A calming syntax theme. Inspired by Base16 Eighties",
+  "keywords": [
+    "syntax",
+    "theme",
+    "patel",
+    "calm"
+  ],
+  "repository": "https://github.com/MojoBandit/pastel-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
