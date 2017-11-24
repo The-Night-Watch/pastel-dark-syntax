@@ -4,7 +4,7 @@ A calming syntax theme. Inspired by Chris Kempson's [Base16 Eighties](https://gi
 
 The font used in the preview is [Range Mono](https://www.myfonts.com/fonts/griffin-moore/range-mono/).
 
-If you like this theme, you can also get it as an [hyperterm theme](https://github.com/MojoBandit/hyper-pastel-dark).
+If you like this color scheme, you can also get it as an [hyperterm theme](https://github.com/MojoBandit/hyper-pastel-dark).
 
 ## Install
 
