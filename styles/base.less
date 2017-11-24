@@ -67,8 +67,11 @@ atom-text-editor {
 }
 
 
+///////////////////
+// Syntax styles //
+///////////////////
 
-// Syntax styles
+// Base
 
 .syntax--comment {
   color: @base03;
@@ -174,6 +177,10 @@ atom-text-editor {
       color: @base0D;
     }
 
+    &.syntax--tag {
+      color: @base08;
+    }
+
     &.syntax--bold {
       color: @base0A;
       font-weight: bold;
@@ -190,7 +197,11 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@base08, 10%);
+    color: @base0F;
+  }
+
+  &.syntax--separator {
+    color: @base09;
   }
 
 }
@@ -245,7 +256,7 @@ atom-text-editor {
 
 .syntax--meta {
   &.syntax--class {
-    color: @base0A;
+    color: @base09;
   }
 
   &.syntax--link {
@@ -317,6 +328,27 @@ atom-text-editor {
   }
 }
 
+.syntax--sgml {
+  color: @base0F;
+  & .syntax--punctuation.syntax--definition.syntax--tag {
+    color: @base0F;
+  }
+}
+
+// HTML
+
+.syntax--html {
+  &.syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--string,
+      &.syntax--variable,
+      &.syntax--parameters,
+      &.syntax--array {
+        color: @base09;
+      }
+    }
+  }
+}
 
 // Mini editor
 
